@@ -1,0 +1,122 @@
+VIRTUAL FOLDERS FOR SSMS END-USER LICENSE AGREEMENT
+
+Version 1.0, 22 September 2026
+
+This End-User License Agreement ("Agreement") is a legal agreement between you (an individual or a single legal entity, "you") and Databaseonline, Roosendaal, the Netherlands, trading as SQLTreeo, www.sqltreeo.com ("SQLTreeo", "we") for the Virtual Folders for SSMS software, an add-in for Microsoft SQL Server Management Studio, including its documentation and any updates SQLTreeo makes available (together the "Software").
+
+By installing, copying or using the Software you accept this Agreement. If you do not accept it, do not install or use the Software.
+
+
+1. Definitions
+
+"License Key" means the key issued by SQLTreeo after purchase that activates the Software.
+"Individual License" means a License Key for one Named User, with folders that are visible to that user only.
+"Team License" means a License Key for one Named User that additionally enables shared folders, which are visible to every team member who holds a Team License.
+"Named User" means one individual person who is authorised by you to use the Software under a License Key.
+"Term" means the period of use purchased for a License Key, as shown at purchase and inside the Software.
+"Evaluation Period" means the free trial described in section 2.
+"General Terms" means the SQLTreeo General Terms and Conditions published at https://www.sqltreeo.com/termsandconditions/.
+
+
+2. Evaluation license
+
+2.1 On the first start on a computer the Software creates a trial license that allows every feature to be used free of charge for 30 days, for the purpose of evaluating the Software.
+2.2 The Evaluation Period is available once per computer. Extending, resetting, copying or otherwise circumventing it is not permitted.
+2.3 When the Evaluation Period ends, the Software stops providing virtual folders until a License Key is entered. Folder definitions that were stored remain where they are and become usable again with a License Key.
+2.4 During the Evaluation Period the Software is provided "as is", without any support or warranty obligation.
+
+
+3. License grant
+
+3.1 Upon payment of the applicable fee SQLTreeo grants you, for the Term, a non-exclusive, non-transferable, non-sublicensable license to install and use the Software as follows.
+3.2 Each License Key, whether an Individual License or a Team License, is personal to one Named User. That Named User may install and activate the Software on up to three (3) computers that are mainly used by that person. A License Key may not be shared by several people.
+3.3 An Individual License provides folders that are visible to the Named User only. A Team License additionally provides shared folders: every member of a team who is to see or edit shared folders needs their own Team License.
+3.4 You may reassign a License Key to another Named User no more than once every 30 days, for example when an employee leaves. Simultaneous use by more than one person per License Key is not allowed.
+3.5 The Software is licensed, not sold. SQLTreeo and its licensors retain all rights not expressly granted in this Agreement.
+
+
+4. Term, renewal and expiry
+
+4.1 A License Key is valid for the Term. The Software shows the end date of the Term in its options.
+4.2 When the Term ends and is not renewed, the Software stops providing virtual folders until a valid License Key is entered. Stored folder definitions are not deleted.
+4.3 Updates published during the Term are included in the license. The current version of this Agreement applies to each update; if an update comes with a changed Agreement, you accept the change by installing it.
+4.4 SQLTreeo may deactivate a License Key that was obtained fraudulently, charged back, shared in breach of this Agreement or used to circumvent the license verification.
+
+
+5. Restrictions
+
+You may not, and may not allow others to:
+(a) copy the Software except for a reasonable number of backup copies;
+(b) distribute, sell, rent, lease, lend, sublicense or otherwise make the Software or a License Key available to third parties, or offer the Software as a service to third parties;
+(c) modify, translate, adapt or create derivative works of the Software;
+(d) reverse engineer, decompile or disassemble the Software, except to the extent that applicable law expressly permits this despite this limitation;
+(e) remove, hide or alter any copyright, trademark or other proprietary notice in the Software;
+(f) bypass, disable or tamper with the license verification or the Evaluation Period;
+(g) use the Software in breach of applicable law or of the rights of third parties.
+
+
+6. License verification and data
+
+6.1 The Software verifies a License Key online with the SQLTreeo license service. During verification the Software transmits the License Key, the name entered as licensee, the computer name, the Software version and the IP address of the connection.
+6.2 Folder definitions (folder names, the objects placed in them and their settings) are stored where you configure it: by default in the tempdb database of the SQL Server instance you are connected to, or in a database of your choice in a table named dbo.SQLTreeo_Folders. If you choose the SQLTreeo hosted folder service, folder definitions are stored on SQLTreeo's servers, linked to your License Key, so that they are available to you and, with Team Licenses, to the other licensed members of your team.
+6.3 No other database contents, connection details, passwords or query results are transmitted to SQLTreeo.
+
+
+7. Your responsibilities
+
+7.1 You are responsible for the permissions of the SQL Server accounts you use, including the CREATE TABLE permission the Software needs in the database that stores folder definitions.
+7.2 You are responsible for complying with the license terms of Microsoft SQL Server and SQL Server Management Studio and with any law or agreement that applies to the systems you connect to.
+
+
+8. Intellectual property
+
+The Software is protected by copyright and other intellectual property laws and treaties. All intellectual property rights in the Software, including all copies, modifications and updates, belong to SQLTreeo and its licensors. Section 6 of the General Terms applies.
+
+
+9. Third-party components
+
+The Software contains components from Microsoft and other third parties (such as .NET, Azure SDK and Microsoft.Data.SqlClient libraries) that are licensed under their own terms, which are available from the respective publishers. Those terms apply to the respective components only; they do not extend to the Software as a whole.
+
+
+10. Support
+
+Support for licensed users is provided during the Term through the support channels published on www.sqltreeo.com. SQLTreeo will make reasonable efforts to correct material defects that are reported and can be reproduced, but does not guarantee that every defect can or will be corrected, or when. Compatibility with future versions of SQL Server Management Studio is not guaranteed; SQLTreeo publishes separate builds per SSMS version.
+
+
+11. Warranty disclaimer
+
+11.1 To the maximum extent permitted by applicable law the Software is provided "as is" and "as available", without warranties of any kind, whether express, implied or statutory, including warranties of merchantability, fitness for a particular purpose, title, accuracy and non-infringement.
+11.2 SQLTreeo does not warrant that the Software is error-free or that it will operate without interruption, or that folder definitions stored in tempdb survive a restart of SQL Server (they do not; see the documentation on folder persistence).
+
+
+12. Limitation of liability
+
+12.1 To the maximum extent permitted by applicable law SQLTreeo is not liable for any indirect, incidental, special, consequential or punitive damages, or for loss of data, loss of profit, business interruption, or the cost of restoring systems or data, arising out of or related to the Software or this Agreement, even if SQLTreeo has been advised of the possibility of such damages.
+12.2 SQLTreeo's total liability under or in connection with this Agreement is limited to the amount you paid for the Software in the twelve (12) months preceding the event that gave rise to the claim.
+12.3 Nothing in this Agreement limits liability for intent or wilful recklessness of SQLTreeo or its management, or any other liability that cannot be limited under applicable law. The liability provisions of the General Terms apply in addition to this section.
+
+
+13. Termination
+
+13.1 This Agreement is effective until it is terminated. It terminates automatically if you breach any of its terms. SQLTreeo may in that case also deactivate your License Key without refund.
+13.2 On termination you must stop using the Software and delete all copies.
+13.3 Sections 5, 7, 8, 9, 11, 12 and 15 survive termination.
+
+
+14. General Terms and consumers
+
+14.1 The General Terms apply to the purchase of a License Key and to all agreements between you and SQLTreeo. In the event of a conflict between the General Terms and this Agreement, this Agreement prevails with respect to the use of the Software.
+14.2 If you are a consumer, nothing in this Agreement limits the rights you have under mandatory consumer protection law, including any statutory right of withdrawal.
+
+
+15. Governing law and disputes
+
+This Agreement is governed by the laws of the Netherlands. Disputes will be submitted to the competent court in the Netherlands as set out in the General Terms, without prejudice to mandatory rules on jurisdiction that apply to consumers.
+
+
+16. Contact
+
+Databaseonline, trading as SQLTreeo
+Kade 28, 4703 GG Roosendaal, the Netherlands
+https://www.sqltreeo.com
+Questions about this Agreement or about licensing can be sent through the contact options on the website.
